@@ -1,0 +1,361 @@
+#header {
+    font-size: 100px;
+    color: #F0FFFF;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#tic {
+    margin-left: auto;
+    margin-right: auto;
+}
+#homepage {
+    position: relative;
+    display: flex;
+    height: 550px;
+    width: 800px; 
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 50px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 35px;
+    padding: 5px;
+    box-shadow: 0px 0px 20px 5px #000052;
+}
+#home {
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    font-size: 28px;
+    color: #000052;
+    border-radius: 5px;
+    opacity: .75;
+    font-weight: bold;
+    border-style: none;
+    font-family: chalkduster;
+    
+}
+#home:hover {
+    opacity: 1;
+    background-color: white;
+    color: #000052;
+}
+#players {
+    text-align: center;
+    
+}
+#player1 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px;
+    background-color:#000052;
+    outline-style: none;
+    border: none;
+    margin: 10px 10px;
+    padding: 10px;
+    font-family: chalkduster;
+    width: 250px;
+}
+#player2 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #000052;
+    outline-style: none;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    font-family: chalkduster;
+    width: 250px;
+}
+#start {
+    text-align: center;
+}
+#row1 {
+    text-align: center;
+}
+.button {
+    height: 135px;
+    width: 140px;
+    margin: 40px;
+    font-size: 32px;
+    border-radius: 500px;
+    background-color: #000052;
+    margin-bottom: 70px;
+    color: white;
+    opacity: .75;
+    transition: .2s;
+    border-color: black;
+    cursor: pointer;
+    font-family: chalkduster;
+}
+
+.body {
+    background-image: url('spiral.jpg');
+    background-repeat: no-repeat;
+    font-family: chalkduster;
+    min-height: 635px;
+    background-size: cover;
+}
+.button:hover {
+    opacity: 1;
+    background-color: #000052;
+    color: white;
+}
+.float-child {
+    float: left;
+}
+::placeholder {
+    color: white;
+    opacity: .7;
+}
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    min-height: 400px;
+    max-height: 400px;
+    min-width: 400px;
+    max-width: 400px;
+    border: none;
+    margin-bottom: 25px;
+  }
+.x {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    font-family: chalkduster;
+    border: 3px solid #F5FFFA;
+    cursor: pointer;
+    border: 3px solid white;
+    color: white;
+  }
+  .x:hover {
+    background-image: url('_x.jpg');
+    background-size: cover;
+}
+.o {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    font-family: chalkduster;
+    border: 3px solid #F5FFFA;
+    cursor: pointer;
+    border: 3px solid white;
+    color: white;
+}
+.o:hover {
+    background-image: url('_o.jpg');
+    background-size: cover;
+}
+.none {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    font-family: chalkduster;
+    border: 3px solid #F5FFFA;
+    cursor: pointer;
+    border: 3px solid white;
+    color: white;
+}
+.none:hover {
+    background: none;
+}
+#gamepage {
+    display: none;
+    position: relative;
+    height: 550px;
+    width: 800px; 
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 50px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 35px;
+    padding: 5px;
+    box-shadow: 0px 0px 20px 5px #000052;
+}
+#tic2 {
+    font-size: 80px;
+    color: white;
+    margin-top: 15px;
+
+}
+#f1 {
+      border-left: none;
+      border-top: none;
+}
+#f2 {
+      border-top: none;
+}
+#f3 {
+      border-top: none;
+      border-right: none;
+}
+#f4 {
+      border-left: none;
+}
+#f6 {
+      border-right: none;
+}
+#f7 {
+      border-left: none;
+      border-bottom: none;
+}
+#f8 {
+      border-bottom: none;
+}
+#f9 {
+      border-bottom: none;
+      border-right: none;
+}
+#playa1 {
+    width: 80px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+#playaInput{
+      height: 35px;
+      background: none;
+      border: 7px solid white;
+      border-right: none;
+      border-left: none;
+      border-top: none;
+      color: white;
+      font-size: 30px;
+      width: 180px;
+      text-align: center;
+      font-family: chalkduster;
+      margin-top: 0px;
+      margin-bottom: 0px;
+}
+#playa2 {
+    width: 130px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+#playa2Input {
+      height: 35px; 
+      background: none;
+      border: 7px solid white; 
+      border-right: none;
+      border-left: none;
+      border-top: none;
+      color: white;
+      font-size: 30px;
+      width: 180px;
+      text-align: center;
+      font-family: chalkduster;
+      margin-bottom: 0px;
+      margin-top: 0px;
+}
+.game {
+}
+.column {
+    float: left;
+}
+.p1x {
+      color: white;
+      text-align: center;
+      font-size: 35px;
+      margin-left: 70px;
+      margin-bottom: 5px;
+    margin-top: 0px;
+}
+.p2o {
+    color: white; 
+    text-align: center; 
+    font-size: 35px; 
+    margin-top: 0px; 
+    margin-bottom: 5px; 
+    margin-left: 60px;
+}
+#score1 {
+    width: 180px;
+    text-align: center;
+    font-family: chalkduster;
+    background: none;
+    border: none;
+    font-size: 40px;
+    margin-top: 5px; 
+    margin-left: 0px;
+    color: white;
+  }
+#score2 {
+    width: 180px;
+    text-align: center;
+    font-family: chalkduster;
+    background: none;
+    border: none;
+    font-size: 40px;
+    margin-top: 5px; 
+    color: white;
+}
+#testingp1 {
+    color: white; 
+    font-size: 20px;
+}
+#testingp2 {
+    color: white; 
+    font-size: 20px;
+}
+#pTurns {
+    color: white; 
+    font-size: 20px;
+}
+#winPage {
+    position: absolute;
+    margin-top: 10px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-left: 380px;
+    z-index: 2;
+    flex-direction: column;
+    color: solid black;
+    border: 3px solid black;
+    box-shadow: 0px 0px 20px 5px #000052;
+    border-radius: 25px;
+    width: 350px;
+    height: 180px;
+    background-image: url('winBackground.jpg');
+    background-size: cover;
+}
+#congrats {
+    font-size: 28px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    color: white;
+}
+.winbutton {
+    font-size: 18px;
+    padding: 10px;
+    width: 110px;
+    margin: 0px 10px;
+    font-family: chalkduster;
+    background-color: #B0E0E6;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border: solid black;
+    border-radius: 8px;
+}
+.winpopup {
+    margin: 0px;
+    color: white;
+    margin-bottom: 5px;
+}
